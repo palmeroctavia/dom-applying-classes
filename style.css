@@ -29,6 +29,10 @@ div.red {
   background-color: red;
 }
 
+div.visible {
+  background-color: orange;
+}
+
 .invisible {
   display: none;
 }

@@ -7,6 +7,7 @@ function start () {
   one();
   two();
   three();
+  makeVisible();
 }
 
 function one () {
@@ -24,4 +25,7 @@ function three () {
   three.classList.add('red');
 }
 
-// CREATE FUNCTION makeVisible HERE
+function makeVisible () {
+  var makeVisible = document.getElementsByClassName('visible', [0]);
+  visible.classList.add('orange');
+}
