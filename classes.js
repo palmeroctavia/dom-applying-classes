@@ -4,18 +4,19 @@
 document.addEventListener('DOMContentLoaded', start)
 
 function start () {
-
+  one();
+  two();
+  three();
 }
 
 function one () {
-  // First, we have to find the element:
-  var one = document.getElementById('one')
-
-  // Next, we apply a new CSS class to it:
-  one.classList.add('blue')
+  var one = document.getElementById('one');
+  one.classList.add('blue');
 }
-
-// CREATE FUNCTION two HERE
+function two () {
+  var two = document.getElementById('two');
+  two.classList.add('green');
+}
 
 // CREATE FUNCTION three HERE
 
