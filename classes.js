@@ -13,11 +13,15 @@ function one () {
   var one = document.getElementById('one');
   one.classList.add('blue');
 }
+
 function two () {
   var two = document.getElementById('two');
   two.classList.add('green');
 }
 
-// CREATE FUNCTION three HERE
+function three () {
+  var three = document.getElementById('three');
+  three.classList.add('red');
+}
 
 // CREATE FUNCTION makeVisible HERE
